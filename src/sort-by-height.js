@@ -22,7 +22,7 @@ function sortByHeight(arr) {
   }
 
   newArr2.sort((a, b) => a - b);
-  
+
   for (let i = 0; i < arr.length; i++) {
     if (arr[i] === -1) {
       newArr.push(arr[i]);

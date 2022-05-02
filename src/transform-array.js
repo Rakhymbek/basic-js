@@ -51,6 +51,7 @@ function transform(arr) {
     }
     if (newArr[i] === doubleNext) {
       newArr.splice(i, 1, newArr[i + 1]);
+      i++;
     } else if (newArr[i] === discardPrev) {
       newArr.splice(i - 1, 2);
     } else if (newArr[i] === discardNext) {

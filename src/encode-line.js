@@ -26,7 +26,6 @@ function encodeLine(str) {
   return newStr;
 }
 
-
 module.exports = {
   encodeLine,
 };

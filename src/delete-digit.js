@@ -18,13 +18,12 @@ function deleteDigit(n) {
   stringified.map((num, i) => {
     let copyStr = [...stringified];
     copyStr.splice(i, 1);
-    
-    numArr.push(+(copyStr.join("")));
-  })
+
+    numArr.push(+copyStr.join(""));
+  });
 
   return Math.max(...numArr);
 }
-
 
 module.exports = {
   deleteDigit,

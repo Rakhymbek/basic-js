@@ -21,7 +21,6 @@ function getSumOfDigits(n) {
   return sum.toString().length > 1 ? getSumOfDigits(sum) : +sum;
 }
 
-
 module.exports = {
   getSumOfDigits,
 };

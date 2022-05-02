@@ -45,15 +45,6 @@ function repeater(
   return newStr;
 }
 
-console.log(
-  repeater("STRING", {
-    repeatTimes: 3,
-    separator: "**",
-    addition: "PLUS",
-    additionRepeatTimes: 3,
-    additionSeparator: "00",
-  }) /* , 'ftdbrDAkOtfvqSIKT9jjL20ZyRjUuGfvqSIKT9jjL20ZyRjUuGfvqSIKT9jjL20ZyRjUuGfvqSIKT9jjL20ZyRjUuGfvqSIKT9jjR0icHRlDIqftdbrDAkOtfvqSIKT9jjL20ZyRjUuGfvqSIKT9jjL20ZyRjUuGfvqSIKT9jjL20ZyRjUuGfvqSIKT9jjL20ZyRjUuGfvqSIKT9jjR0icHRlDIqftdbrDAkOtfvqSIKT9jjL20ZyRjUuGfvqSIKT9jjL20ZyRjUuGfvqSIKT9jjL20ZyRjUuGfvqSIKT9jjL20ZyRjUuGfvqSIKT9jjR0icHRlDIqftdbrDAkOtfvqSIKT9jjL20ZyRjUuGfvqSIKT9jjL20ZyRjUuGfvqSIKT9jjL20ZyRjUuGfvqSIKT9jjL20ZyRjUuGfvqSIKT9jjR0icHRlDIqftdbrDAkOtfvqSIKT9jjL20ZyRjUuGfvqSIKT9jjL20ZyRjUuGfvqSIKT9jjL20ZyRjUuGfvqSIKT9jjL20ZyRjUuGfvqSIKT9jjR0icHRlDIqftdbrDAkOtfvqSIKT9jjL20ZyRjUuGfvqSIKT9jjL20ZyRjUuGfvqSIKT9jjL20ZyRjUuGfvqSIKT9jjL20ZyRjUuGfvqSIKT9jjR0icHRlDIqftdbrDAkOtfvqSIKT9jjL20ZyRjUuGfvqSIKT9jjL20ZyRjUuGfvqSIKT9jjL20ZyRjUuGfvqSIKT9jjL20ZyRjUuGfvqSIKT9jjR0icHRlDIqftdbrDAkOtfvqSIKT9jjL20ZyRjUuGfvqSIKT9jjL20ZyRjUuGfvqSIKT9jjL20ZyRjUuGfvqSIKT9jjL20ZyRjUuGfvqSIKT9jj' */
-);
 
 module.exports = {
   repeater,
